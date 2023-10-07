@@ -75,7 +75,7 @@
 
 # Figures:
 # Training Convergence [CFR]: 
-![TrainConvg](Results/Figures/CFRLossVal.png?raw=true "Title")
+![TrainConvg](/Figures/funny-jaguar-coloring-page.png?raw=true "Title")
 # Training Convergence [CSR]: 
 ![TrainConvgCSR](Results/Figures/CSRLossValNew.png?raw=true "Title")
 # Parameter correlation: 
