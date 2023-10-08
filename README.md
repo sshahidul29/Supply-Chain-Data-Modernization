@@ -1,17 +1,11 @@
-# Training of machine learning models for COVID-19 dataset
-# Installation:
 # Requirements:
-- Anaconda
-- Python 3.5
-- Numpy
-- Scipy
-- Sci-kit learn
-- Pandas
-- matplotlib
+- Build an Enterprise Data warehouse that addresses the analytic requirements
+- Build Data Mart Cubes for functional areas based on the analytic requirements using SQL Server Analysis Services
+- Using Tableau and Power BI to design Data Visualisations for business users and management to enable informed decisions
 
 # Models are trained based on two output parameters
 - Case Fatality Ratio (CFR)
-- CFR = Cumulative number of death / Cumulative number of cases
+- CFR = Cumulative number of deaths / Cumulative number of cases
 
 - COVID-19 Spreading Ratio (CSR)
 - CSR = Cumulative number of cases / Total population
