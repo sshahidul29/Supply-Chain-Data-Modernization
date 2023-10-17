@@ -1,87 +1,61 @@
-# Requirements:
-- Build an Enterprise Data warehouse that addresses the analytic requirements
-- Build Data Mart Cubes for functional areas based on the analytic requirements using SQL Server Analysis Services
-- Using Tableau and Power BI to design Data Visualisations for business users and management to enable informed decisions
+## Overview
 
-# Models are trained based on two output parameters
-- Case Fatality Ratio (CFR)
-- CFR = Cumulative number of deaths / Cumulative number of cases
+This project aims to empower our retail client with data-driven insights and decision-making capabilities by providing a robust data infrastructure and actionable analytics. It involves integrating, cleaning, and structuring data, creating analytical models, and presenting the results in a user-friendly format through data visualizations and dashboards.
 
-- COVID-19 Spreading Ratio (CSR)
-- CSR = Cumulative number of cases / Total population
+It comprises two distinct **Business Processes**, each with its own end-to-end analysis, design, and development.
+### Business Processes are 1. Sales Analysis and 2. Purchase Analysis
 
-# Data collection strategy
-- Data are collected from 57 locations from all over the world
-- We have divided the locations into 5 categories where the locations in each category have the similar density of 65+ aged population.  
-- Distribution of population density over 65+ aged people: 
-![pop_65+](Results/pumpkin-coloring-pages-decorative-patterned-pumpkin-with-leaf-400x518.png?raw=true "Title")
+## Enterprise Data Warehouse was built in MSSQL Server using SSMS
 
-# Input dataset:
-- We have total 22 input features in the dataset.
-- Input features are chosen based on environmental, biological, pollution, and demographical factors.
-- Some input parameters influence CFR, some of them influence CSR and some have an impact on both CFR and CSR. 
+- Led complete database lifecycle management including installation, upgrade, troubleshooting, migration, and security.
+- Conducted stakeholder analysis and requirements gathering sessions, aligning data with business needs.
+- Created Bus Matrix (composition of Business process, Granularity, Facts, Fact Tables, and Dimensions).
+- Designed and implemented Enterprise Data Warehouse (EDW) using Ralph Kimball’s Dimensional Modelling Approach.
+- Created and configured Staging, EDW, and Control Framework databases on MS SQL Server. 
 
-# Input features dictate CFR:
-- Population density of 65 or older people 
-- Vitamin A deficiency 
-- Vitamin D deficiency 
-- Health care quality and access index
-- Pollutant PM2.5 particle 
-- Anemia 
-- AB+ 
-- AB-
-- A+
-- A- 
-- B+ 
-- B- 
-- O+ 
-- O- 
+  ![Sales Analysis](https://github.com/sshahidul29/Sales-and-Procurement-Data-Integration-and-Analytics-Framework/blob/main/Figures/Galaxyschema.PNG)  
+Figure 1: Sales and Purchase Galaxyschema Schema
 
-# Input features dictate CSR:
-- Solar radiation
-- Daily Temperature 
-- Precipitation
-- Population density
-- Average Wind speed
-- Relative humidity
-- Stringency index
-- UV index
+## ETL Pipeline was built in Visual Studio using SSIS
 
-# Input features dictate both CFR and CSR:
-- Pollutant PM2.5 particle 
+- The project aimed to create an ETL (Extract, Transform, Load) pipeline for data extraction, transformation, and loading into SQL Server Databases from the OLEDB source.
+- Wrote ETL packages to extract, transform and load data from the OLEDB source to Staging and staging to EDW Databases.
+- Created a metric table for an audit of Source Count, and Destination Count Staging database, and Pre, Current, Post, Type1, and Type2 Counts for EDW using the Control framework database.
+- Implemented server agent for automated data loading and scheduling.
 
-# Methodology:
-- To train the input dataset, Artificial Neural Netwrok is used for regression.
-- GridSearch technique is used to choose the hyperparameters, activation function, solver, and number and the size of hidden layers. 
-- Four hidden layers are used to train the model with the sizes of 22, 20, 10, 5. 
-- A regularization parameter alpha is used to prevent the trained model from overfitting. 
-- Non-linear activation function (Relu) is used to fit the non-linear dataset.
-- Solver Adam is used to handle the noisy dataset. 
+  
+  ![Sales Analysis](https://github.com/sshahidul29/Sales-and-Procurement-Data-Integration-and-Analytics-Framework/blob/main/Figures/SalesCETL.PNG)
 
-# Results:
-- For CFR:
-- Training Error (MAE): 0.0350
-- Testing Error (MAE): 0.0377
+ Figure 2: Control-flow diagram for ETL Pipeline
 
-- For CSR:
-- Training Error (MAE): 0.0184
-- Testing Error (MAE): 0.0187
+  ![Sales Analysis](https://github.com/sshahidul29/Sales-and-Procurement-Data-Integration-and-Analytics-Framework/blob/main/Figures/Product.PNG)
 
-# Figures:
-# Training Convergence [CFR]: 
-![TrainConvg](/Figures/funny-jaguar-coloring-page.png?raw=true "Title")
-# Training Convergence [CSR]: 
-![TrainConvgCSR](Sohel/1542844586079.jpg?raw=true "Title")
-# Parameter correlation: 
-![Corr](Results/Figures/CorrCoefficient.png?raw=true "Title")
+ Figure 3: Data-flow diagram of ETL Pipeline for Product dimension
 
-# Validation of the trained model
-# Arizona, USA
-![TrainConvg](Results/Validation/ArizonaCFR.png?raw=true "Title")
-![TrainConvg](Results/Validation/ArizonaCSR.png?raw=true "Title")
-# Japan
-![TrainConvg](Results/Validation/JapanCFR.png?raw=true "Title")
-![TrainConvg](Results/Validation/JapanCSR.png?raw=true "Title")
-# BC, Canada
-![TrainConvg](Results/Validation/BCCanadaCFR.png?raw=true "Title")
-![TrainConvg](Results/Validation/BCCanadaCSR.png?raw=true "Title")
+ ![Sales Analysis](https://github.com/sshahidul29/Sales-and-Procurement-Data-Integration-and-Analytics-Framework/blob/main/Figures/SalesETL.PNG)
+
+Figure 4: Data-flow diagram for Incremental load of ETL Pipeline for Factsales
+
+![Sales Analysis](https://github.com/sshahidul29/Sales-and-Procurement-Data-Integration-and-Analytics-Framework/blob/main/Figures/Control.PNG)
+
+Figure 5: Control-flow diagram for ETL Pipeline to automate the system through SQL Server Agent
+
+## Datamart was built using SSAS for Business Users
+
+- Cubes were built using SQL Server Analysis Services (SSAS) for multi-dimensional and Tabular analysis for business users. These cubes supported interactive dashboards and data visualizations for informed decision-making.
+
+ ![Sales Analysis](https://github.com/sshahidul29/Sales-and-Procurement-Data-Integration-and-Analytics-Framework/blob/main/Figures/SalesM.PNG)
+
+Figure 6: Sales Cube for Multidimensional Analysis
+
+ ![Sales Analysis](https://github.com/sshahidul29/Sales-and-Procurement-Data-Integration-and-Analytics-Framework/blob/main/Figures/salesTab.PNG)
+
+Figure 7: Sales Cube for Tabular Analysis
+
+![Sales Analysis](https://github.com/sshahidul29/Sales-and-Procurement-Data-Integration-and-Analytics-Framework/blob/main/Figures/PurchaseM.PNG)
+
+Figure 8: Purchase Cube for Multidimensional Analysis
+
+ ![Sales Analysis](https://github.com/sshahidul29/Sales-and-Procurement-Data-Integration-and-Analytics-Framework/blob/main/Figures/PurchaseTab.PNG)
+
+Figure 9: Purchase Cube for Tabular Analysis
