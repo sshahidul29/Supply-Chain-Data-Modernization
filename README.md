@@ -14,7 +14,7 @@ This project's main goal is to help our retail client use data for better decisi
 
 Figure 1: OLTP Operational Data Store (ODS) using Bill Inmon’s Relational Modeling Techniques (3NF).
 
-  ![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/SCODS.PNG)  
+  ![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/SCEDW.PNG)  
 
 Figure 2: Enterprise Data Warehouse using Ralph Kimball’s Dimensional Modelling Approach.
 
@@ -24,17 +24,16 @@ Figure 2: Enterprise Data Warehouse using Ralph Kimball’s Dimensional Modellin
 - Wrote ETL packages to extract, transform and load data from the OLEDB source to Staging and staging to EDW Databases.
 - Created a metric table for an audit of Source Count, and Destination Count Staging database, and Pre, Current, Post, Type1, and Type2 Counts for EDW using the Control framework database.
 - Implemented server agent for automated data loading and scheduling.
-
   
-  ![Sales Analysis](https://github.com/sshahidul29/Sales-and-Procurement-Data-Integration-and-Analytics-Framework/blob/main/Figures/SalesCETL.PNG)
+![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/ODSETL1.PNG) 
 
  Figure 2: Control-flow diagram for ETL Pipeline
 
-  ![Sales Analysis](https://github.com/sshahidul29/Sales-and-Procurement-Data-Integration-and-Analytics-Framework/blob/main/Figures/Product.PNG)
+  ![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/ODSETL2.PNG) 
 
  Figure 3: Data-flow diagram of ETL Pipeline for Product dimension
 
- ![Sales Analysis](https://github.com/sshahidul29/Sales-and-Procurement-Data-Integration-and-Analytics-Framework/blob/main/Figures/SalesETL.PNG)
+  ![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/ODSETL3.PNG) 
 
 Figure 4: Data-flow diagram for Incremental load of ETL Pipeline for Factsales
 
