@@ -37,6 +37,18 @@ Figure 2: Enterprise Data Warehouse using Ralph Kimball’s Dimensional Modellin
 
 Figure 5: Data-flow diagram for Incremental load of ETL Pipeline from flat file source to ODS Purchase transactions table
 
+![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/ODSETL4.PNG) 
+
+ Figure 3: Control-flow diagram for ETL Pipeline for EDW
+
+  ![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/ODSETL5.PNG) 
+
+ Figure 4: Data-flow diagram of ETL Pipeline for EDW Dimension table
+
+  ![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/ODSETL6.PNG) 
+
+Figure 5: Data-flow diagram for Incremental load of ETL Pipeline EDW Fact table
+
 ![Sales Analysis](https://github.com/sshahidul29/Sales-and-Procurement-Data-Integration-and-Analytics-Framework/blob/main/Figures/Control.PNG)
 
 Figure 6: Control-flow diagram for ETL Pipeline to automate the system through SQL Server Agent
