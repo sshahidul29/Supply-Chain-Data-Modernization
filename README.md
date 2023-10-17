@@ -20,9 +20,9 @@ Figure 2: Enterprise Data Warehouse using Ralph Kimball’s Dimensional Modellin
 
 ## ETL Pipeline was built in Visual Studio using SSIS
 
-- The project aimed to create an ETL (Extract, Transform, Load) pipeline for data extraction, transformation, and loading into SQL Server Databases from the OLEDB source.
-- Wrote ETL packages to extract, transform and load data from the OLEDB source to Staging and staging to EDW Databases.
-- Created a metric table for an audit of Source Count, and Destination Count Staging database, and Pre, Current, Post, Type1, and Type2 Counts for EDW using the Control framework database.
+- The project aimed to create an ETL (Extract, Transform, Load) pipeline for data extraction, transformation, and loading into SQL Server Databases from the flat-file (CSV) source.
+- Designed SQL Server Integration Service (SSIS) packages and wrote T-SQL scripts for extraction, transformation, and loading (ETL) of data from different data sources to ODS, ODS to a staging area and subsequently to the data warehouse.
+- Created a metric table for an audit of Source Count, Pre-Count, Destination Count, and Post Count for ODS, Source Count, and Destination Count Staging database, and Pre, Current, Post, Type1, and Type2 Counts for EDW using the Control framework database.
 - Implemented server agent for automated data loading and scheduling.
   
 ![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/ODSETL1.PNG) 
