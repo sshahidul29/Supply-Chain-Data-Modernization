@@ -27,19 +27,19 @@ Figure 2: Enterprise Data Warehouse using Ralph Kimball’s Dimensional Modellin
   
 ![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/ODSETL1.PNG) 
 
- Figure 2: Control-flow diagram for ETL Pipeline
+ Figure 3: Control-flow diagram for ETL Pipeline from flat file source to ODS
 
   ![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/ODSETL2.PNG) 
 
- Figure 3: Data-flow diagram of ETL Pipeline for Product dimension
+ Figure 4: Data-flow diagram of ETL Pipeline from flat file source to ODS Product table
 
   ![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/ODSETL3.PNG) 
 
-Figure 4: Data-flow diagram for Incremental load of ETL Pipeline for Factsales
+Figure 5: Data-flow diagram for Incremental load of ETL Pipeline from flat file source to ODS Purchase transactions table
 
 ![Sales Analysis](https://github.com/sshahidul29/Sales-and-Procurement-Data-Integration-and-Analytics-Framework/blob/main/Figures/Control.PNG)
 
-Figure 5: Control-flow diagram for ETL Pipeline to automate the system through SQL Server Agent
+Figure 6: Control-flow diagram for ETL Pipeline to automate the system through SQL Server Agent
 
 ## Datamart was built using SSAS for Business Users
 
