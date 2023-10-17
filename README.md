@@ -37,21 +37,21 @@ Figure 2: Enterprise Data Warehouse using Ralph Kimball’s Dimensional Modellin
 
 Figure 5: Data-flow diagram for Incremental load of ETL Pipeline from flat file source to ODS Purchase transactions table
 
-![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/ODSETL4.PNG) 
+![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/SCETL4.PNG) 
 
- Figure 3: Control-flow diagram for ETL Pipeline for EDW
+ Figure 6: Control-flow diagram for ETL Pipeline for EDW
 
-  ![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/ODSETL5.PNG) 
+  ![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/SCETL5.PNG) 
 
- Figure 4: Data-flow diagram of ETL Pipeline for EDW Dimension table
+ Figure 7: Data-flow diagram of ETL Pipeline for EDW Dimension table
 
-  ![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/ODSETL6.PNG) 
+  ![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/SCETL6.PNG) 
 
-Figure 5: Data-flow diagram for Incremental load of ETL Pipeline EDW Fact table
+Figure 8: Data-flow diagram for Incremental load of ETL Pipeline EDW Fact table
 
 ![Sales Analysis](https://github.com/sshahidul29/Sales-and-Procurement-Data-Integration-and-Analytics-Framework/blob/main/Figures/Control.PNG)
 
-Figure 6: Control-flow diagram for ETL Pipeline to automate the system through SQL Server Agent
+Figure 9: Control-flow diagram for ETL Pipeline to automate the system through SQL Server Agent
 
 ## Datamart was built using SSAS for Business Users
 
@@ -59,8 +59,8 @@ Figure 6: Control-flow diagram for ETL Pipeline to automate the system through S
 
 ![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/SCM.PNG)  
 
-Figure 7: Purchase Cube for Multidimensional Analysis
+Figure 10: Purchase Cube for Multidimensional Analysis
 
 ![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/SCT.PNG)  
 
-Figure 8: Purchase Cube for Tabular Analysis
+Figure 11: Purchase Cube for Tabular Analysis
