@@ -6,15 +6,20 @@ It comprises two distinct **Business Processes**, each with its own end-to-end a
 ### Business Processes are 1. Sales Analysis and 2. Purchase Analysis
 
 ## Enterprise Data Warehouse was built in MSSQL Server using SSMS
-
 - Led complete database lifecycle management including installation, upgrade, troubleshooting, migration, and security.
 - Conducted stakeholder analysis and requirements gathering sessions, aligning data with business needs.
+- Designed Conceptual and Logical data models for the OLTP Operational Data Store (ODS) and implemented Physical Data models using Bill Inmon’s Relational Modeling Techniques in the MSSQL Server using SSMS. 
 - Created Bus Matrix (composition of Business process, Granularity, Facts, Fact Tables, and Dimensions).
 - Designed and implemented Enterprise Data Warehouse (EDW) using Ralph Kimball’s Dimensional Modelling Approach.
 - Created and configured Staging, EDW, and Control Framework databases on MS SQL Server. 
 
-  ![Sales Analysis](https://github.com/sshahidul29/Sales-and-Procurement-Data-Integration-and-Analytics-Framework/blob/main/Figures/Galaxyschema.PNG)  
+  ![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/SCODS.PNG)  
+
 Figure 1: Sales and Purchase Galaxyschema Schema
+
+  ![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/SCODS.PNG)  
+
+Figure 2: Sales and Purchase Galaxyschema Schema
 
 ## ETL Pipeline was built in Visual Studio using SSIS
 
