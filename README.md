@@ -1,9 +1,6 @@
 ## Overview
 
-This project aims to empower our retail client with data-driven insights and decision-making capabilities by providing a robust data infrastructure and actionable analytics. It involves integrating, cleaning, and structuring data, creating analytical models, and presenting the results in a user-friendly format through data visualizations and dashboards.
-
-It comprises two distinct **Business Processes**, each with its own end-to-end analysis, design, and development.
-### Business Processes are 1. Sales Analysis and 2. Purchase Analysis
+This project's main goal is to help our retail client use data for better decision-making. We'll build a strong data system that includes an Operational Data Store (ODS) and a Data Warehouse. This project includes the tasks of combining, refining, and organizing data, developing analytical models, and showcasing the outcomes in a user-friendly manner using data visualizations and dashboards.
 
 ## Enterprise Data Warehouse was built in MSSQL Server using SSMS
 - Led complete database lifecycle management including installation, upgrade, troubleshooting, migration, and security.
@@ -15,11 +12,11 @@ It comprises two distinct **Business Processes**, each with its own end-to-end a
 
   ![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/SCODS.PNG)  
 
-Figure 1: Sales and Purchase Galaxyschema Schema
+Figure 1: OLTP Operational Data Store (ODS) using Bill Inmon’s Relational Modeling Techniques (3NF)
 
   ![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/SCODS.PNG)  
 
-Figure 2: Sales and Purchase Galaxyschema Schema
+Figure 2: Enterprise Data Warehouse
 
 ## ETL Pipeline was built in Visual Studio using SSIS
 
