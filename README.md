@@ -12,7 +12,7 @@ This project's main goal is to help our retail client use data for better decisi
 
   ![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/SCODS.PNG)  
 
-Figure 1: OLTP Operational Data Store (ODS) using Bill Inmon’s Relational Modeling Techniques (3NF).
+Figure 1: OLTP Operational Data Store (ODS) using Bill Inmon’s Relational Modeling Techniques (Normalized to 3NF).
 
   ![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/SCEDW.PNG)  
 
