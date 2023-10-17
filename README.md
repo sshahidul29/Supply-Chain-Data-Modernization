@@ -45,18 +45,10 @@ Figure 6: Control-flow diagram for ETL Pipeline to automate the system through S
 
 - Cubes were built using SQL Server Analysis Services (SSAS) for multi-dimensional and Tabular analysis for business users. These cubes supported interactive dashboards and data visualizations for informed decision-making.
 
- ![Sales Analysis](https://github.com/sshahidul29/Sales-and-Procurement-Data-Integration-and-Analytics-Framework/blob/main/Figures/SalesM.PNG)
+![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/SCM.PNG)  
 
-Figure 6: Sales Cube for Multidimensional Analysis
+Figure 7: Purchase Cube for Multidimensional Analysis
 
- ![Sales Analysis](https://github.com/sshahidul29/Sales-and-Procurement-Data-Integration-and-Analytics-Framework/blob/main/Figures/salesTab.PNG)
+![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/SCT.PNG)  
 
-Figure 7: Sales Cube for Tabular Analysis
-
-![Sales Analysis](https://github.com/sshahidul29/Sales-and-Procurement-Data-Integration-and-Analytics-Framework/blob/main/Figures/PurchaseM.PNG)
-
-Figure 8: Purchase Cube for Multidimensional Analysis
-
- ![Sales Analysis](https://github.com/sshahidul29/Sales-and-Procurement-Data-Integration-and-Analytics-Framework/blob/main/Figures/PurchaseTab.PNG)
-
-Figure 9: Purchase Cube for Tabular Analysis
+Figure 8: Purchase Cube for Tabular Analysis
