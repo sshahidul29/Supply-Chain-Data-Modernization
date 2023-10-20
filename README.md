@@ -2,6 +2,10 @@
 
 This project's main goal is to help our retail client use data for better decision-making. We'll build a strong data system that includes an Operational Data Store (ODS) and a Data Warehouse. This project includes the tasks of combining, refining, and organizing data, developing analytical models, and showcasing the outcomes in a user-friendly manner using data visualizations and dashboards.
 
+## Software requirements:
+- MS SQL server
+- Windows OS
+
 ## Enterprise Data Warehouse was built in MSSQL Server using SSMS
 - Led complete database lifecycle management including installation, upgrade, troubleshooting, migration, and security.
 - Conducted stakeholder analysis and requirements gathering sessions, aligning data with business needs.
