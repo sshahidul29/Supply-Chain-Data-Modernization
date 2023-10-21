@@ -1,18 +1,18 @@
 ## Overview
 
-This project's main goal is to help our retail client use data for better decision-making. We'll build a strong data system that includes an Operational Data Store (ODS) and a Data Warehouse. This project includes the tasks of combining, refining, and organizing data, developing analytical models, and showcasing the outcomes in a user-friendly manner using data visualizations and dashboards.
+The primary goal of this project is to help our retail client to use data for better decision-making. We have built a strong data system that includes an Operational Data Store (ODS) and a Data Warehouse. This project includes the tasks of combining, refining, and organizing data, developing analytical models, and showcasing the outcomes in a user-friendly manner using data visualizations and dashboards.
 
 ## Software requirements:
-- MS SQL server
+- MSSQL server
 - Windows OS
 
 ## Enterprise Data Warehouse was built in MSSQL Server using SSMS
-- Led complete database lifecycle management including installation, upgrade, troubleshooting, migration, and security.
+- Completed database lifecycle management including installation, upgrade, troubleshooting, migration, and security.
 - Conducted stakeholder analysis and requirements gathering sessions, aligning data with business needs.
 - Designed Conceptual and Logical data models for the OLTP Operational Data Store (ODS) and implemented Physical Data models using Bill Inmon’s Relational Modeling Techniques in the MSSQL Server using SSMS. 
 - Created Bus Matrix (composition of Business process, Granularity, Facts, Fact Tables, and Dimensions).
-- Designed and implemented Enterprise Data Warehouse (EDW) using Ralph Kimball’s Dimensional Modelling Approach.
-- Created and configured Staging, EDW, and Control Framework databases on MS SQL Server. 
+- Designed and implemented Enterprise Data Warehouse (EDW) using Ralph Kimball’s Dimensional Modelling approach.
+- Created and configured Staging, EDW, and Control Framework databases on MSSQL Server. 
 
   ![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/SCODS.PNG)  
 
@@ -24,8 +24,8 @@ Figure 2: Enterprise Data Warehouse using Ralph Kimball’s Dimensional Modellin
 
 ## ETL Pipeline was built in Visual Studio using SSIS
 
-- The project aimed to create an ETL (Extract, Transform, Load) pipeline for data extraction, transformation, and loading into SQL Server Databases from the flat-file (CSV) and OLDBE sources.
-- Designed SQL Server Integration Service (SSIS) packages and wrote T-SQL scripts for extraction, transformation, and loading (ETL) of data from different data sources to ODS, ODS to a staging area and subsequently to the data warehouse.
+- The project aimed to create an ETL (Extract, Transform, and Load) pipeline for data extraction, transformation, and loading into SQL Server Databases from the CSV and OLDBE data sources.
+- Designed SQL Server Integration Service (SSIS) packages and wrote T-SQL scripts for extraction, transformation, and loading (ETL) of data from different data sources to ODS, ODS to a staging area, and eventually to the data warehouse.
 - Created a metric table for an audit of Source Count, Pre-Count, Destination Count, and Post Count for ODS, Source Count, and Destination Count Staging database, and Pre, Current, Post, Type1, and Type2 Counts for EDW using the Control framework database.
 - Implemented server agent for automated data loading and scheduling.
   
