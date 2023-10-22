@@ -3,7 +3,7 @@
 The primary goal of this project is to help our retail client to use data for better decision-making. We have built a strong data system that includes an Operational Data Store (ODS) and a Data Warehouse. This project includes the tasks of combining, refining, and organizing data, developing analytical models, and showcasing the outcomes in a user-friendly manner using data visualizations and dashboards.
 
 ## Software requirements:
-- MS SQL Server, SSMS, SSIS, SSAS, SSRS, Power BI, Tableau
+- MS SQL Server, SSMS, SSIS, SSAS, SSRS, Power BI, Tableau, Visual Studio and Dax Studio
 - Windows OS
 
 ## Enterprise Data Warehouse was built in MSSQL Server using SSMS
