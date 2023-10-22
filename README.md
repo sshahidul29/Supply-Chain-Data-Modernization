@@ -9,7 +9,8 @@ The primary goal of this project is to help our retail client to use data for be
 ## Enterprise Data Warehouse was built in MSSQL Server using SSMS
 - Completed database lifecycle management including installation, upgrade, troubleshooting, migration, and security.
 - Conducted stakeholder analysis and requirements gathering sessions, aligning data with business needs.
-- Designed Conceptual and Logical data models for the OLTP Operational Data Store (ODS) and implemented Physical Data models using Bill Inmon’s Relational Modeling Techniques in the MSSQL Server using SSMS. 
+- Designed Conceptual and Logical data models for the OLTP Operational Data Store (ODS) and implemented Physical Data models using Bill Inmon’s Relational Modeling Techniques in the MSSQL Server using SSMS.
+- Created the opportunity/stakeholder Matrix (it helps identify which business groups should be invited to the collaborative design sessions for each process-centric row).
 - Created Bus Matrix (composition of Business process, Granularity, Facts, Fact Tables, and Dimensions).
 - Designed and implemented Enterprise Data Warehouse (EDW) using Ralph Kimball’s Dimensional Modelling approach.
 - Created and configured Staging, EDW, and Control Framework databases on MS SQL Server. 
