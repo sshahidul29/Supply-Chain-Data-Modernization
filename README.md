@@ -3,7 +3,7 @@
 The primary goal of this project is to help our retail client to use data for better decision-making. We have built a strong data system that includes an Operational Data Store (ODS) and a Data Warehouse. This project includes the tasks of combining, refining, and organizing data, developing analytical models, and showcasing the outcomes in a user-friendly manner using data visualizations and dashboards.
 
 ## Software requirements:
-- MSSQL server
+- MS SQL server, SSMS, SSIS, SSAS, SSRS, Power BI, Tableau
 - Windows OS
 
 ## Enterprise Data Warehouse was built in MSSQL Server using SSMS
@@ -12,7 +12,7 @@ The primary goal of this project is to help our retail client to use data for be
 - Designed Conceptual and Logical data models for the OLTP Operational Data Store (ODS) and implemented Physical Data models using Bill Inmon’s Relational Modeling Techniques in the MSSQL Server using SSMS. 
 - Created Bus Matrix (composition of Business process, Granularity, Facts, Fact Tables, and Dimensions).
 - Designed and implemented Enterprise Data Warehouse (EDW) using Ralph Kimball’s Dimensional Modelling approach.
-- Created and configured Staging, EDW, and Control Framework databases on MSSQL Server. 
+- Created and configured Staging, EDW, and Control Framework databases on MS SQL Server. 
 
   ![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/SCODS.PNG)  
 
