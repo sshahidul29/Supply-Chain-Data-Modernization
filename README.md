@@ -30,8 +30,8 @@ Figure 2: Enterprise Data Warehouse using Ralph Kimball’s Dimensional Modellin
 - Designed SQL Server Integration Service (SSIS) packages and wrote T-SQL scripts for extraction, transformation, and loading (ETL) of data from different data sources to ODS, ODS to a staging area, and eventually to the 
   data warehouse.
 - Design and Implement Ralph Kimball slowly changing dimension (SCD) Type 1 and 2 using SQL Server Integration Services (SSIS) data flow transformation.
-- Created a metric table for an audit of Source Count, Pre-Count, Destination Count, and Post Count for ODS, Source Count, and Destination Count Staging database, and Pre, Current, Post, Type1, and Type2 Counts for EDW 
-  using the Control framework database.
+- Created a metric table for an audit of Source Count, Pre-Count, Destination Count, and Post Count for ODS, Source Count, and Destination Count Staging database, and Pre, Current, Post, Type1, and Type2 Counts for EDW using the Control framework database.
+- Troubleshooting and root cause analysis activities to fix bugs in the data integration process. 
 - Implemented server agent for automated data loading and scheduling.
   
 ![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/ODSETL1.PNG) 
