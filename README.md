@@ -77,9 +77,9 @@ Figure 8: Data-flow diagram for Incremental load of ETL Pipeline EDW Fact table
 
 Figure 9: Control-flow diagram for ETL Pipeline to automate the system through SQL Server Agent
 
-## Datamart was built using SSAS for Business Users
+## Data Mart Cubes were built using SSAS for Business Users
 
-- Cubes were built using SQL Server Analysis Services (SSAS) for multi-dimensional and Tabular analysis for business users. These cubes supported interactive dashboards and data visualizations for informed decision-making.
+- Data Mart Cubes were built using SQL Server Analysis Services (SSAS) for multi-dimensional and Tabular analysis for business users. These cubes supported interactive dashboards and data visualizations for informed decision-making.
 
 ![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/SCM.PNG)  
 
