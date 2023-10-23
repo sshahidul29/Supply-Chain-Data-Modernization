@@ -1,12 +1,11 @@
 ## Overview
 The primary goal of this project is to help our retail client to use data for better decision-making. This project includes the tasks of combining, refining, and organizing data, developing analytical models, and showcasing the outcomes in a user-friendly manner using data visualizations and dashboards.
 
-## Achievement
+## Contributions
 - A robust Operational Data Store (ODS) and Data Warehouse were developed to meet the business needs.
-- The management successfully monitored the flow of supplies, the quantity of purchases, and the payments made to each supplier over a period of time.
-- They also identified suppliers who could consistently deliver products on time in line with customer demand.
-
-
+- The developed system has facilitated the management to monitor the flow of supplies, the quantity of purchases, and the payments made to each supplier over a period of time.
+- It also helped the management to identify the suppliers who could consistently deliver products on time in line with customer demand.
+  
 ## Software requirements:
 - MS SQL Server, SSMS, SSIS, SSAS, and Visual Studio
 - Windows OS
