@@ -21,7 +21,7 @@ Data Management and Processes involved with
 ## System Development Life Cycle (SDLC)
 - Agile Kanban Methodology
 
-## Enterprise Data Warehouse was built in MSSQL Server using SSMS
+## Enterprise Data Warehouse was built in MS SQL Server using SSMS
 - Completed database lifecycle management including installation, upgrade, troubleshooting, migration, and security.
 - Work closely with Managers, Project Managers, Technical Product Managers, clients, and subject-matter experts to obtain requirements, objectives, and business rules for projects.
 - Conducted stakeholder analysis and requirements gathering sessions, aligning data with business needs.
