@@ -1,5 +1,5 @@
 ## Overview
-The primary goal of this project is to help our retail client to use data for better decision-making. We have built a strong data system that includes an Operational Data Store (ODS) and a Data Warehouse. This project includes the tasks of combining, refining, and organizing data, developing analytical models, and showcasing the outcomes in a user-friendly manner using data visualizations and dashboards.
+The primary goal of this project is to help our retail client to use data for better decision-making. This project includes the tasks of combining, refining, and organizing data, developing analytical models, and showcasing the outcomes in a user-friendly manner using data visualizations and dashboards.
 
 ## Achievement
 - A robust Operational Data Store (ODS) and Data Warehouse were developed to meet the business needs.
