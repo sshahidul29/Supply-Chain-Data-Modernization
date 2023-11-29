@@ -24,11 +24,11 @@ Data Management and Processes involved with
   
    ![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/Conceptual%20model.PNG)  
 
-Figure 1: A conceptual model of OLTP Operational Data Store (ODS) using Bill Inmon’s Relational Modeling Techniques (Normalized to 3NF).
+Figure 1: A high-level graphical (conceptual model) representation of OLTP Operational Data Store (ODS) using Bill Inmon’s Relational Modeling Techniques (Normalized to 3NF).
 
   ![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/Bubble%20Chart.PNG)  
 
-Figure 2: A bubble chart of Enterprise Data Warehouse using Ralph Kimball’s Dimensional Modelling Approach.
+Figure 2: A high-level graphical (bubble chart) representation of a business process of Enterprise Data Warehouse using Ralph Kimball’s Dimensional Modelling Approach.
 
 ## Enterprise Data Warehouse was built in MS SQL Server using SSMS
 - Completed database lifecycle management including installation, upgrade, troubleshooting, migration, and security.
