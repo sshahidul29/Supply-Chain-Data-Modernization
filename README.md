@@ -22,11 +22,11 @@ Data Management and Processes involved with
 ## High-Level Model Diagram (aka Bubble Chart)
 - Created a high-level model diagram, including conceptual models and a bubble chart, to effectively communicate complex data models to non-technical stakeholders, improving understanding and decision-making.
   
-   ![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/Conceptual model.PNG)  
+   ![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/Conceptual%20model.PNG)  
 
 Figure 1: OLTP Operational Data Store (ODS) using Bill Inmon’s Relational Modeling Techniques (Normalized to 3NF).
 
-  ![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/Bubble Chart.PNG)  
+  ![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/Bubble%20Chart.PNG)  
 
 Figure 2: Enterprise Data Warehouse using Ralph Kimball’s Dimensional Modelling Approach.
 
