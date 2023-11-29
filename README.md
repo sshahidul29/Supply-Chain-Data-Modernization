@@ -19,7 +19,7 @@ Data Management and Processes involved with
 
 ## System Development Life Cycle (SDLC)
 - Agile Kanban Methodology
-## High-Level Model Diagram (aka Bubble Chart)
+## High-Level Model Diagram
 - Created a high-level model diagram, including conceptual models and a bubble chart, to effectively communicate complex data models to non-technical stakeholders, improving understanding and decision-making.
   
    ![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/Conceptual%20model.PNG)  
