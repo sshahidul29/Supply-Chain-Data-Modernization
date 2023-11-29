@@ -42,11 +42,11 @@ Figure 2: A bubble chart of Enterprise Data Warehouse using Ralph Kimball’s Di
 
   ![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/SCODS.PNG)  
 
-Figure 1: OLTP Operational Data Store (ODS) using Bill Inmon’s Relational Modeling Techniques (Normalized to 3NF).
+Figure 3: OLTP Operational Data Store (ODS) using Bill Inmon’s Relational Modeling Techniques (Normalized to 3NF).
 
   ![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/SCEDW.PNG)  
 
-Figure 2: Enterprise Data Warehouse using Ralph Kimball’s Dimensional Modelling Approach.
+Figure 4: Enterprise Data Warehouse using Ralph Kimball’s Dimensional Modelling Approach.
 
 ## ETL Pipeline was built in Visual Studio using SSIS
 
@@ -60,31 +60,31 @@ Figure 2: Enterprise Data Warehouse using Ralph Kimball’s Dimensional Modellin
   
 ![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/ODSETL1.PNG) 
 
- Figure 3: Control-flow diagram for ETL Pipeline from flat file source to ODS
+ Figure 5: Control-flow diagram for ETL Pipeline from flat file source to ODS
 
   ![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/ODSETL2.PNG) 
 
- Figure 4: Data-flow diagram of ETL Pipeline from flat file source to ODS Product table
+ Figure 6: Data-flow diagram of ETL Pipeline from flat file source to ODS Product table
 
   ![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/ODSETL3.PNG) 
 
-Figure 5: Data-flow diagram for Incremental load of ETL Pipeline from flat file source to ODS Purchase transactions table
+Figure 7: Data-flow diagram for Incremental load of ETL Pipeline from flat file source to ODS Purchase transactions table
 
 ![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/SCETL4.PNG) 
 
- Figure 6: Control-flow diagram for ETL Pipeline for EDW
+ Figure 8: Control-flow diagram for ETL Pipeline for EDW
 
   ![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/SCETL5.PNG) 
 
- Figure 7: Data-flow diagram of ETL Pipeline for EDW Dimension table
+ Figure 9: Data-flow diagram of ETL Pipeline for EDW Dimension table
 
   ![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/SCETL6.PNG) 
 
-Figure 8: Data-flow diagram for Incremental load of ETL Pipeline EDW Fact table
+Figure 10: Data-flow diagram for Incremental load of ETL Pipeline EDW Fact table
 
 ![Sales Analysis](https://github.com/sshahidul29/Sales-and-Procurement-Data-Integration-and-Analytics-Framework/blob/main/Figures/Control.PNG)
 
-Figure 9: Control-flow diagram for ETL Pipeline to automate the system through SQL Server Agent
+Figure 11: Control-flow diagram for ETL Pipeline to automate the system through SQL Server Agent
 
 ## Data Mart Cubes were built using SSAS for Business Users
 
@@ -92,8 +92,8 @@ Figure 9: Control-flow diagram for ETL Pipeline to automate the system through S
 
 ![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/SCM.PNG)  
 
-Figure 10: Purchase Cube for Multidimensional Analysis
+Figure 12: Purchase Cube for Multidimensional Analysis
 
 ![Purchase Analysis](https://github.com/sshahidul29/Supply-Chain-Data-Modernization/blob/main/Figures/SCT.PNG)  
 
-Figure 11: Purchase Cube for Tabular Analysis
+Figure 13: Purchase Cube for Tabular Analysis
